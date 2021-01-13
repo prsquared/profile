@@ -2,6 +2,7 @@ body
 {
     margin: 0;
     padding: 0;
+    padding-left: 10px;
     font-family: sans-serif;
 }
 /**-------header css----->**/
@@ -143,18 +144,21 @@ body
 .nav-link {
     color: #fff !important;
 }
+.fa-star {
+    color:rgb(204, 204, 204)
+}
 .checked {
-  color: mediumaquamarine;
+  color: rgb(0, 0, 0);
 }
 .skills-bar p {
     margin-bottom: 6px;
     font-weight: 600;
 }
-.progress {
+.bar {
     border-radius: 16px !important;
     margin-bottom: 10px;
+    background-color: white;
 }
-
 /*---------------------Resume-----*/
 
 .resume {
