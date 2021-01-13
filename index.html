@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/icons.css">
     <script src="https://kit.fontawesome.com/9441cbe726.js" crossorigin="anonymous"></script>
 </head>
 
@@ -15,18 +16,59 @@
     <!------------Header-------------------------->
     <section id="header">
         <div class="container text-center">
+            <!-- <div id="user-box-outer" class="user-box-outer">
+                <ul id="circle-container" class="circle-container">
+                    <li><img class="flaticon" src="https://img.icons8.com/color/48/000000/css3.png" /></li>
+                    <li><img class="flaticon" src="https://img.icons8.com/color/48/000000/javascript.png" /></li>
+                    <li><img class="flaticon" src="https://img.icons8.com/color/48/000000/html-5.png" /></li>
+
+                    <li><span class="iconify flaticon" data-icon="logos:java" data-inline="false"></span></li>
+                    <li><span class="iconify flaticon" data-icon="logos:spring" data-inline="false"></span></li>
+                    <li><span class="iconify oracle" data-icon="logos:oracle" data-inline="false"></span></li>
+                    <li><span class="iconify flaticon" data-icon="logos:docker-icon" data-inline="false"></span></li>
+                    <li><span class="iconify flaticon" data-icon="vscode-icons:file-type-mongo"
+                            data-inline="false"></span></li>
+                    <li><span class="iconify flaticon" data-icon="vscode-icons:file-type-angular"
+                            data-inline="false"></span></li>
+                    <li><span class="iconify flaticon" data-icon="vscode-icons:file-type-typescript-official"
+                            data-inline="false"></span></li>
+                </ul>
+            </div> -->
             <div class="user-box">
                 <img src="img/user1.png" alt="">
                 <h1>Priyesh Prasannan</h1>
                 <p>Full-Stack Java Developer</p>
             </div>
+
+        </div>
+        <div class="container skill-bar">
+            <div class="row">
+                <div class="first col-md-8 mx-auto">
+                    <ul class="rect-container" id="rect-container">
+                        <li><span class="iconify flaticon" data-icon="logos:java" data-inline="false"></span></li>
+                        <li><span class="iconify flaticon" data-icon="cib:spring" data-inline="false" style="color: green;"></span></li>
+                        <li><span class="iconify oracle" data-icon="logos:oracle" data-inline="false"></span></li>
+                        <li><span class="iconify flaticon" data-icon="vscode-icons:file-type-html" data-inline="false"></span></li>
+                        <li><span class="iconify flaticon" data-icon="vscode-icons:file-type-css" data-inline="false"></span></li>
+                        <li><span class="iconify flaticon" data-icon="logos:javascript" data-inline="false"></span></li>
+                        <li><span class="iconify flaticon" data-icon="vscode-icons:file-type-typescript-official"
+                            data-inline="false"></span></li>
+                        <li><span class="iconify flaticon" data-icon="vscode-icons:file-type-angular"
+                            data-inline="false"></span></li>
+                        <li><span class="iconify flaticon" data-icon="logos:docker-icon" data-inline="false"></span>
+                        </li>
+                        <!-- <li><span class="iconify flaticon" data-icon="vscode-icons:file-type-mongo"
+                                data-inline="false"></span></li> -->
+                        <li><span class="iconify flaticon" data-icon="simple-icons:apachekafka" data-inline="false" style="color: red;"></span></li>
+                        <li><span class="iconify flaticon" data-icon="simple-icons:rabbitmq" data-inline="false" style="color: #ff8c00;"></span></li>
+                    </ul>
+                </div>
+            </div>
         </div>
         <div class="scroll-btn">
-            <div class="scroll-bar">
-                <a href="#about">
-                    <span></span>
-                </a>
-            </div>
+            <a href="#about">
+                <i class="scroll-bar fas fa-chevron-down"></i>
+            </a>
         </div>
     </section>
     <!------------User Info Section-------------------------->
@@ -49,7 +91,7 @@
                             <a class="nav-link" href="#about">ABOUT ME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#resume">RESUME</a>
+                            <a class="nav-link" href="#resume">MY CAREER</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#contact">CONTACT</a>
@@ -61,121 +103,218 @@
         <!------------------About Me------->
         <div class="about container" id="about">
             <div class="row flex-container">
-                <div class="col-md-6 text-center">
+                <!-- <div class="col-md-6 text-center">
                     <img src="img/user1.png" class="profile-img">
-                </div>
-                <div class="col-md-6">
+                </div> -->
+                <div class="col-md-12">
                     <h3>WHO AM I?</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto sit illo odit quas quaerat a natus
-                        eum, reiciendis quia dolorum dolorem at. Commodi, quos et possimus quis corporis ad eos. Lorem
-                        ipsum dolor sit amet consectetur, adipisicing elit. Laudantium beatae eos odit deleniti modi
-                        libero molestias exercitationem id rerum veniam? Expedita enim eveniet similique, delectus earum
-                        ipsum. Impedit, nesciunt veritatis!</p>
-                    <div class="skills-bar">
-                        <div>Java</div>
-                        <div class="progress">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
+                    <p>Proud father of a curious toddler first and a Java Developer second. I am a driven and resourceful software professional with over 5 years of hands-on experience working with Java, APIs, Spring, Spring Boot, Restful Web services, and Web technologies. I believe though that my strongest professional strength is the fact that I am a team player, who has a proven record of delivering in a fast-paced agile environment while collaborating with Software Engineers, Architects, Quality Engineers, Product Managers & Data Center Operations Engineers.</p>
+
+                    <h3>My Key Skills</h3>
+                    <div class="skills-bar row">
+                        <div class="col-md-6">
+                            <div>Java</div>
+                            <div class="progress">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+                            <div>Spring</div>
+                            <div class="progress">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+                            <div>Oracle</div>
+                            <div class="progress">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            <div>MySQL</div>
+                            <div class="progress">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            <div>Docker</div>
+                            <div class="progress">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            <div>RabbitMQ</div>
+                            <div class="progress">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            <div>Kafka</div>
+                            <div class="progress">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            <div>Maven</div>
+                            <div class="progress">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
                         </div>
-                        <div>Spring</div>
-                        <div class="progress">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
-                        </div>
-                        <div>Oracle</div>
-                        <div class="progress">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
-                        </div>
-                        <div>NoSQL</div>
-                        <div class="progress">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star "></span>
-                            <span class="fa fa-star"></span>
-                        </div>
-                        <div>TypeScript</div>
-                        <div class="progress">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star "></span>
-                            <span class="fa fa-star"></span>
-                        </div>
-                        <div>Angular</div>
-                        <div class="progress">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star "></span>
-                            <span class="fa fa-star"></span>
+                        <div class="col-md-6">
+                            <div>HTML</div>
+                            <div class="progress">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            <div>CSS</div>
+                            <div class="progress">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            <div>JavaScript</div>
+                            <div class="progress">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            <div>TypeScript</div>
+                            <div class="progress">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            <div>Angular</div>
+                            <div class="progress">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            <div>Docker</div>
+                            <div class="progress">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            <div>Jenkins</div>
+                            <div class="progress">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            <div>Git</div>
+                            <div class="progress">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-         <!------------------Social Media------->
-         <div class="social-icons">
-             <ul>
-                 <a href="#"><li><i class="fab fa-linkedin"></i></li></a>
-                 <a href="#"><li><i class="fab fa-twitter"></i></li></a>
-                 <a href="#"><li><i class="fab fa-github"></i></li></a>
-             </ul>
-         </div>
+        <!------------------Social Media------->
+        <div class="social-icons">
+            <ul>
+                <a href="https://www.linkedin.com/in/priyesh-prasannan" target="_blank">
+                    <li><i class="fab fa-linkedin"></i></li>
+                </a>
+                <a href="https://twitter.com/prsquared" target="_blank">
+                    <li><i class="fab fa-twitter"></i></li>
+                </a>
+                <a href="https://github.com/prsquared" target="_blank">
+                    <li><i class="fab fa-github"></i></li>
+                </a>
+            </ul>
+        </div>
         <!------------------Resume------->
         <div class="resume" id="resume">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
-                        <h3 class="text-center">My Experience</h3>
+                    <div class="col-md-12">
+                        <h3 class="text-center">My Career - A Timeline</h3>
                         <ul class="timeline">
                             <li>
-                                <h4><span>2014 - </span>Back End Developer</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit fuga, cumque veritatis blanditiis consequuntur, est, dolor pariatur similique placeat nesciunt iure tenetur nostrum quos! Sed assumenda ratione ipsam rem dicta?</p>
+                                <h4><span>Present Date </h4>
+                                <b>Company</b> - BusyQA <br>
+                                <b>Duration</b> -  [2021 to Present]<br>
+                                <p>BusyQA is building a CRM suite to manage registration and on-boarding of their past, present and future clients to automate the tedious manual process of managing customer data. My role as a full stack developer is to collaborate with my development team to design and develop this web application.</p>
+                                
+                            </li>
+                            <li>
+                                <h4><span>2021 - </span>Started role as Full-Stack Java Developer</h4>                                
+                            </li>
+                            <li>
+                                <h4><span>2019 - </span>Left Role as Java Developer</h4>
                                 <b>Company</b> - Xactly Technologies <br>
                                 <b>Duration</b> - 5yr [2014 to 2019]<br>
-                                <b>Location</b> - India <br><br>
+                                <p>Xactly Technologies is a market leader in the Sales Compensation domain. My role as a Java Developer at Xactly was to implement business logic for an enterprise SaaS solution in the B2B Sales compensation space. I got to meet and work with some wonderful people during my time at Xactly, while working on cutting edge technology. </p>
+                                
                             </li>
-
                             <li>
-                                <h4><span>2009 - </span> Software Developer</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit fuga, cumque veritatis blanditiis consequuntur, est, dolor pariatur similique placeat nesciunt iure tenetur nostrum quos! Sed assumenda ratione ipsam rem dicta?</p>
-                                <b>Company</b> - Integrated Computing Environement <br>
+                                <h4><span>2014 - </span>Started role as Java Developer</h4>                                
+                            </li>
+                            <li>
+                                <h4><span>2013 - </span>Completed Masters in Computer and Information Science</h4>
+                                <b>Institution</b> - Computer and Information Science <br>
+                                <b>Duration</b> - 4yr [2005 to 2009]<br>
+                            </li>
+                            <li>
+                                <h4><span>2011 - </span>Started Masters in Computer and Information Science</h4>
+                            </li>
+                            <li>
+                                <h4><span>2010 - </span> Left role as Software Developer</h4>
+                                <b>Company</b> - ICE Ltd <br>
                                 <b>Duration</b> - 1yr [2009 to 2010]<br>
-                                <b>Location</b> - India <br><br>
+                                <p>ICE Ltd specializes in delivering solutions tailored to client requirements. I took my first steps in the Software Industry at the organization and learned a lot about the trade here. I got to work on Acrobat SDK to develop third-party Adobe Acrobat plugins tailor-made for clients.</p>
+                                
                             </li>
-
-                        </ul>
-                    </div>
-                    <div class="col-md-6">
-                        <h3 class="text-center">My Education</h3>
-                        <ul class="timeline">
                             <li>
-                                <h4><span>2013 - </span>Masters in Computer and Information Science</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit fuga, cumque veritatis blanditiis consequuntur, est, dolor pariatur similique placeat nesciunt iure tenetur nostrum quos! Sed assumenda ratione ipsam rem dicta?</p>
-                                <b>Institution</b> - Cochin University of Science and Technology<br>
-                                <b>Duration</b> - 2yr [2011 to 2013]<br>
-                                <b>Location</b> - India <br><br>
+                                <h4><span>2009 - </span> Started role as Software Developer</h4>
                             </li>
-
                             <li>
-                                <h4><span>2009 - </span> Bachelors in Computer Science and Engineering</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit fuga, cumque veritatis blanditiis consequuntur, est, dolor pariatur similique placeat nesciunt iure tenetur nostrum quos! Sed assumenda ratione ipsam rem dicta?</p>
+                                <h4><span>2009 - </span> Completed Bachelors in Computer Science and Engineering</h4>
                                 <b>Institution</b> - Model Engineering College <br>
                                 <b>Duration</b> - 4yr [2005 to 2009]<br>
-                                <b>Location</b> - India <br><br>
                             </li>
-
+                            <li>
+                                <h4><span>2005 - </span> Started Bachelors in Computer Science and Engineering</h4>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -186,36 +325,34 @@
             <div class="container text-center">
                 <h1>Contact Me</h1>
                 <p class="text-center">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    I am currently looking for full-time roles as a Java Back-End or Full-Stack Developer. If you're interested, don't hesitate to contact me through one of the methods listed below. For a detailed look at my credentials and work history, you can download a pdf version of my resume below.
                 </p>
                 <div class="row">
                     <div class="col-md-4">
                         <i class="fas fa-phone"></i>
-                        <a href="tel:519-902-2918" class="contact-link">(519)902-2918</a>
+                        <a href="tel:437-788-4687" class="contact-link">(437)788-4687</a>
                     </div>
                     <div class="col-md-4">
                         <i class="fas fa-envelope"></i>
                         <a href="mailto:priyesh321988@gmail.com" class="contact-link">priyesh321988@gmail.com</a>
                     </div>
                     <div class="col-md-4">
-                        <i class="fab fa-internet-explorer"></i>
-                        <a href="https://www.google.com" class="contact-link">www.google.com</a>
+                        <i class="fas fa-download"></i>
+                        <a href="https://drive.google.com/u/0/uc?id=18WlLv07N-FB2yPJCOCuzV8ZhK5-pmANq&authuser=0&export=download" class="contact-link">Download Resume</a>
                     </div>
                 </div>
                 <br>
-                <button type="button" class="btn btn-primary">
-                    <i class="fas fa-download"> Resume</i>
-                </button>
-                <button type="button" class="btn btn-primary">
-                    <i class="fas fa-rocket"> Hire Me</i>
-                </button>
-                <p></p>
             </div>
         </div>
     </section>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <script src="js/smooth-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/utils/Draggable.min.js"></script>
+
+    <script src="js/index.js"></script>
     <script>
         var scroll = new SmoothScroll('a[href*="#"]');
     </script>

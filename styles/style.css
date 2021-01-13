@@ -14,18 +14,43 @@ body
     background-size: cover;
     background-attachment: fixed;
 }
+
+.user-box-outer {
+    
+    top:43%;
+    left:49%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    margin: auto;
+    width: 400px;
+    height: 400px;
+}
+.circle-container {
+    list-style-type: none;
+}
+.circle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.skill {
+    color: #fff;
+    font-size: 30px;
+}
 .user-box {
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
     position: absolute;
 }
-.user-box img{
+.user-box img {
     border-radius: 50%;
     width: 250px;
     border: 2px solid #6caed5
 }
-.user-box h1{
+.user-box h1 {
     color: #fff;
     font-weight: bold;
     margin: 10px;
@@ -33,26 +58,59 @@ body
 .user-box p {
     color: #fff;
 }
+.skill-bar {
+    height: 70px;
+    display: block;
+    position: absolute;
+    left: 15%;
+    bottom: 0px;
+    text-align: center;
+    z-index: 6;
+}
+.rect-container {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
 .scroll-btn {
-    bottom: 30px;
+    /* bottom: 30px;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     border: 2px solid #fff;
     padding: 10px 10px 20px;
-    border-radius: 30px;
+    border-radius: 30px; */
+    height: 70px;
+    width: 80px;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+    background-color: #343a40;
+    text-align: center;
+    z-index: 6;
 }
-.scroll-bar span {
+/* .scroll-bar span {
     border: 2px solid #fff;
     font-size: 10px;
     border-radius: 30px;
-}
+} */
 .scroll-bar {
-    animation: mover 1s infinite alternate;
+    color: #FFFFFF;
+    font-size: 30px;
+    padding-right: 2px;
+    padding-top: 20px;
+    animation-name: mover;
+    animation-duration: 1.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    /* animation: mover 1s infinite alternate; */
 }
 @keyframes mover {
     0%{transform: translateY(0);}
-    100%{transform: translateY(10px);}
+    50%{transform: translateY(20px);}
+    100%{transform: translateY(0px);}
 }
 
 /*-------------About-----------------*/
